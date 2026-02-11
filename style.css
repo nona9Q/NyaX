@@ -1039,22 +1039,22 @@ em-emoji-picker {
 }
 
 #right-sidebar-links-container {
-	font-size: 14px;
-	display: inline;
+    font-size: 14px;
+    display: inline;
 }
 
 .link {
-	text-decoration: none;
-	color: #808090;
-	padding: 1px 8px 1px 8px;
+    text-decoration: none;
+    color: #808090;
+    padding: 1px 8px 1px 8px;
 }
 
-.link:not(.discord) {
-	border-right: #808090 1.5px solid;
+.link:not(:last-child) {
+    border-right: #808090 1.5px solid;
 }
 
 .link:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .sidebar-widget {
